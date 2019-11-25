@@ -140,13 +140,6 @@ p {
   font-size: 2rem;
   color: white;
 }
-.backgroundImg img {
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-  display: block;
-  vertical-align: top;
-}
 header {
   display: flex;
   flex-direction: column;
@@ -181,6 +174,8 @@ header nav a {
   color: white;
   padding: 3% 0;
   border-right: 3px solid white;
+  background-color: #545A71;
+  opacity: 0.9;
 }
 header nav a:last-of-type {
   border-right: none;
@@ -192,6 +187,7 @@ header nav a:last-of-type {
 }
 .contact-div {
   width: 40%;
+  background-color: #545A71;
   border: 2px solid white;
   border-radius: 12px;
   margin: 100px auto;
@@ -199,6 +195,7 @@ header nav a:last-of-type {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  opacity: 0.9;
 }
 .contact-div h1 {
   margin-top: 5%;
@@ -220,4 +217,70 @@ header nav a:last-of-type {
 }
 .contact-div p:last-of-type {
   margin-bottom: 5%;
+}
+.aboutMeBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.aboutMeDiv {
+  background-color: #545A71;
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 0.9;
+}
+.aboutMeDiv h1 {
+  margin: 20px auto 10px;
+}
+.aboutMeDiv p {
+  margin-top: 10px ;
+  padding: 15px;
+}
+.projectsBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projectsDiv {
+  background-color: #545A71;
+  border: 2px solid white;
+  border-radius: 12px;
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 0.9;
+}
+.projectsDiv h3 {
+  margin: 20px auto 10px;
+  font-size: 2.5rem;
+  color: white;
+  width: 40%;
+}
+.projectsDiv p {
+  margin: 20px auto ;
+  width: 50%;
+  border-left: 2px solid white;
+  padding-left: 30px;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.backgroundImg img {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  display: block;
+  vertical-align: top;
 }

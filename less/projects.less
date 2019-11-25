@@ -1,0 +1,33 @@
+.projectsBody {
+    .flex(column, flex-start);
+}
+
+.projectsDiv {
+    background-color: @divBackgroundColor;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 80%;
+    margin: 100px auto;
+    .flex(column, space-evenly);
+    align-items: center;
+    opacity: 0.9;
+
+    h3 {
+        margin: 20px auto 10px;
+        font-size: 2.5rem;
+        color: white;
+        width: 40%
+    }
+
+    p {
+        margin: 20px auto ;
+        width: 50%;
+        border-left: 2px solid white;
+        padding-left: 30px;
+    }
+}
+
+.project {
+    .flex(row, space-between);
+    align-items: center;
+}
